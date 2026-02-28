@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Es on CoopVPN</title>
+    <link>http://localhost:1313/en/es/</link>
+    <description>Recent content in Es on CoopVPN</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoopVPN Policy</title>
+      <link>http://localhost:1313/en/es/privacy_policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/es/privacy_policy/</guid>
+      <description>&lt;h3 id=&#34;the-prime-directive-you-are-not-a-product&#34;&gt;The Prime Directive: You Are Not a Product&lt;/h3&gt;&#xA;&lt;p&gt;At LEAP, privacy is not a compliant checkbox; it is the fundamental architecture of our service. We reject the surveillance capitalism model. We do not sell your data, we do not mine your behavior for insights, and we do not track you across the web.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-no-logs-technical-guarantee&#34;&gt;The &amp;ldquo;No-Logs&amp;rdquo; Technical Guarantee&lt;/h3&gt;&#xA;&lt;p&gt;We operate under a strict No-Logs Policy. This is not just a promise; it is an engineering constraint. We have designed our Platform and Client backend to ensure that we technically cannot view your activity even if compelled to do so.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

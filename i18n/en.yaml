@@ -1,0 +1,68 @@
+- id: nav_about
+  translation: "About"
+- id: nav_privacy policy
+  translation: "Privacy Policy"
+- id: nav_open_source_policy
+  translation: "Open Source Policy"
+- id: nav_blog
+  translation: "Blog"
+- id: nav_language
+  translation: "Language"
+- id: cta_download
+  translation: "Download on Google Play"
+- id: hero_title
+  translation: "A VPN You Can Trust."
+- id: hero_p1
+  translation: "Many VPNs make privacy claims they don’t back up. CoopVPN is built by the developers behind RiseupVPN, CalyxVPN, and TorVPN. We run a strict no-logs service, publish 100% of our code as open source, and have undergone independent security audits by Cure53 and SRLabs. Organizationally, CoopVPN is worker-owned, with ownership and privacy policies designed to prioritize user protection over profit."
+- id: hero_p2
+  translation: "Please beta test CoopVPN on Android, and let us know what you think!"
+- id: feature1_title
+  translation: "Protect Your Privacy."
+- id: feature1_body
+  translation: "Corporations and governments use the internet to spy on you and collect your data. CoopVPN encrypts your internet connection and limits how your internet provider and the websites you visit track your activity. Whether you're on public Wi‑Fi or at home, CoopVPN is a solid first step against mass surveillance."
+- id: feature2_title
+  translation: "Defy Surveillance. Bypass Censorship."
+- id: feature2_body
+  translation: "The internet should be a place to speak and connect freely. CoopVPN limits what data brokers can collect about you and supports access to the open internet for people living under censorship. CoopVPN is designed to be easy to use, dependable day to day, and reliable in environments where access can't be taken for granted."
+- id: feature3_title
+  translation: "Why use a VPN?"
+- id: feature3_body
+  translation: "Our online lives are circumscribed by two nefarious forces: surveillance capitalism and authoritarian nation states. These forces splinter the internet into smaller sub domains, their algorithms turning neighbors against each other for control and profit. The problem is global and existential. Using a good VPN will not end this, but it does give you and yours one level of protection against the prying eyes and data sucking networks that seek to monetize and control us. A VPN that you can trust is an important tool in the tool box of internet freedom."
+- id: plans_title
+  translation: "The Plans"
+- id: plans_intro
+  translation: "We offer two plans: a free plan and a faster paid plan with customer support. As a worker coop, we have no investors or bosses taking profits. Any profits are first reinvested in the coop; remaining funds are split 50% to worker-owners and 50% to a solidarity fund supporting allied providers and anti-censorship efforts."
+- id: plan_community
+  translation: "Community"
+- id: plan_standard
+  translation: "Standard"
+- id: billing_yearly
+  translation: "Yearly"
+- id: billing_monthly
+  translation: "Monthly"
+- id: free
+  translation: "Free"
+- id: feature_limited_bandwidth
+  translation: "Limited bandwidth"
+- id: feature_limited_support
+  translation: "Limited support"
+- id: feature_unlimited_bandwidth
+  translation: "Unlimited bandwidth"
+- id: feature_priority_support
+  translation: "Priority support"
+- id: feature_solidarity
+  translation: "Helps support our solidarity fund"
+- id: feature_cancel
+  translation: "Cancel anytime"
+- id: about_title
+  translation: "About us"
+- id: footer_contact
+  translation: "Contact"
+- id: footer_privacy
+  translation: "Privacy Policy"
+- id: footer_code
+  translation: "Code Policy"
+- id: footer_coop
+  translation: "Cooperative Policy"
+- id: blog_title
+  translation: "Blog"

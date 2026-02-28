@@ -1,0 +1,68 @@
+- id: nav_about
+  translation: "Acerca de"
+- id: nav_privacy policy
+  translation: "Política de Privacidad"
+- id: nav_open_source_policy
+  translation: "Política de código abierto"
+- id: nav_blog
+  translation: "Blog"
+- id: nav_language
+  translation: "Idioma"
+- id: cta_download
+  translation: "Descargar en Google Play"
+- id: hero_title
+  translation: "Un VPN en el que puedes confiar."
+- id: hero_p1
+  translation: "Muchos VPN hacen promesas de privacidad que no pueden sostener. CoopVPN está construido por desarrolladores detrás de RiseupVPN, CalyxVPN y TorVPN. Operamos con una política estricta de no‑registros, publicamos el 100% de nuestro código como software libre y hemos pasado auditorías de seguridad independientes por Cure53 y SRLabs. A nivel organizativo, CoopVPN es una cooperativa de trabajadores: la propiedad y las políticas de privacidad están diseñadas para priorizar la protección de las personas usuarias por encima del lucro."
+- id: hero_p2
+  translation: "¡Por favor prueba la beta de CoopVPN en Android y cuéntanos qué te parece!"
+- id: feature1_title
+  translation: "Protege tu privacidad."
+- id: feature1_body
+  translation: "Corporaciones y gobiernos usan internet para espiarte y recolectar tus datos. CoopVPN cifra tu conexión y limita cómo tu proveedor de internet y los sitios que visitas rastrean tu actividad. Ya sea en Wi‑Fi público o en casa, CoopVPN es un primer paso sólido contra la vigilancia masiva."
+- id: feature2_title
+  translation: "Desafía la vigilancia. Evita la censura."
+- id: feature2_body
+  translation: "Internet debería ser un lugar para hablar y conectarse libremente. CoopVPN limita lo que los intermediarios de datos pueden recopilar sobre ti y apoya el acceso a internet abierto para personas que viven bajo censura. CoopVPN está diseñado para ser fácil de usar, fiable en el día a día y resistente en entornos donde el acceso no se puede dar por sentado."
+- id: feature3_title
+  translation: "¿Por qué usar un VPN?"
+- id: feature3_body
+  translation: "Nuestras vidas en línea están acotadas por dos fuerzas: el capitalismo de vigilancia y los estados autoritarios. Estas fuerzas fragmentan internet en dominios más pequeños y usan algoritmos para dividirnos con fines de control y beneficio. El problema es global y existencial. Un buen VPN no resolverá todo, pero sí ofrece una capa de protección frente a redes que buscan monetizar y controlar. Un VPN en el que puedas confiar es una herramienta importante para la libertad en internet."
+- id: plans_title
+  translation: "Los planes"
+- id: plans_intro
+  translation: "Ofrecemos dos planes: uno gratuito y otro de pago, más rápido y con soporte. Como cooperativa de trabajadores no tenemos inversores ni jefes que se queden con los beneficios. Las ganancias se reinvierten primero en la cooperativa; lo restante se divide 50% para las personas trabajadoras‑propietarias y 50% para un fondo de solidaridad que apoya a proveedores aliados y esfuerzos anti‑censura."
+- id: plan_community
+  translation: "Comunidad"
+- id: plan_standard
+  translation: "Estándar"
+- id: billing_yearly
+  translation: "Anual"
+- id: billing_monthly
+  translation: "Mensual"
+- id: free
+  translation: "Gratis"
+- id: feature_limited_bandwidth
+  translation: "Ancho de banda limitado"
+- id: feature_limited_support
+  translation: "Soporte limitado"
+- id: feature_unlimited_bandwidth
+  translation: "Ancho de banda ilimitado"
+- id: feature_priority_support
+  translation: "Soporte prioritario"
+- id: feature_solidarity
+  translation: "Ayuda a sostener el fondo solidario"
+- id: feature_cancel
+  translation: "Cancela cuando quieras"
+- id: about_title
+  translation: "Sobre nosotros"
+- id: footer_contact
+  translation: "Contacto"
+- id: footer_privacy
+  translation: "Política de privacidad"
+- id: footer_code
+  translation: "Política de código"
+- id: footer_coop
+  translation: "Política cooperativa"
+- id: blog_title
+  translation: "Blog"

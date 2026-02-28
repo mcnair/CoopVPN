@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="section section--white">
+  <div class="container container--wide">
+    <div class="about-grid">
+      <div>
+        <h3 class="h3">Header</h3>
+        <p class="lead">Text goes here.</p>
+      </div>
+      <div>
+        <h3 class="h3">Header</h3>
+        <p class="lead">Text goes here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream">
+  <div class="container container--wide">
+    <div class="page-narrow">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="lead">{{ . }}</p>{{ end }}
+
+      <div class="page-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

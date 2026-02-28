@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on CoopVPN</title>
+    <link>http://localhost:1313/es/</link>
+    <description>Recent content in Home on CoopVPN</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>100% Open Source</title>
+      <link>http://localhost:1313/es/open_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/open_source/</guid>
+      <description>&lt;p&gt;At LEAP we strongly believe in sharing of knowledge, there&amp;rsquo;s no other way to develop code that LEAP uses other than open source, we&amp;rsquo;ll forever keep our code open source, there will never be any secret sauce that LEAP employs in its stack, we believe that security by obscurity is a fallacy, we&amp;rsquo;ll open source all our code except for &amp;ldquo;secrets/credentials&amp;rdquo; we want anyone to be able to replicate our stack, as part of this we&amp;rsquo;ll always develop in the open and will try to remove any barriers to open collaborations to the extent that we&amp;rsquo;ll mirror our code to capitalist entities like Github to ensure there&amp;rsquo;s less friction for others to use our stack&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CoopVPN Policy</title>
+      <link>http://localhost:1313/es/privacy_policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/privacy_policy/</guid>
+      <description>&lt;h3 id=&#34;the-prime-directive-you-are-not-a-product&#34;&gt;The Prime Directive: You Are Not a Product&lt;/h3&gt;&#xA;&lt;p&gt;At LEAP, privacy is not a compliant checkbox; it is the fundamental architecture of our service. We reject the surveillance capitalism model. We do not sell your data, we do not mine your behavior for insights, and we do not track you across the web.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-no-logs-technical-guarantee&#34;&gt;The &amp;ldquo;No-Logs&amp;rdquo; Technical Guarantee&lt;/h3&gt;&#xA;&lt;p&gt;We operate under a strict No-Logs Policy. This is not just a promise; it is an engineering constraint. We have designed our Platform and Client backend to ensure that we technically cannot view your activity even if compelled to do so.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

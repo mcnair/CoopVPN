@@ -1,0 +1,55 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+
+      <div class="nav-right">
+        <a class="nav-link" href="{{ "/#about" | relLangURL }}">{{ i18n "nav_about" }}</a>
+        <a class="nav-link" href="{{ "/privacy_policy/" | relLangURL }}">{{ i18n "nav_privacy policy" }}</a>
+        <a class="nav-link" href="{{ "/open_source/" | relLangURL }}">{{ i18n "nav_open_source_policy" }}</a>
+
+
+        {{/* Language switcher: prefer same-page translation; fall back to that language's home */}}
+        <div class="lang">
+          <button class="lang-button" type="button" aria-haspopup="true" aria-expanded="false">
+            {{ .Site.Language.LanguageName }}
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+
+          <ul class="lang-menu" role="menu">
+            {{ range .Site.Languages }}
+            {{ $lang := .Lang }}
+            {{ $label := .LanguageName }}
+
+            {{ $target := "" }}
+
+            {{/* If we're on a page, try to find that page's translation in this language */}}
+            {{ if $.IsPage }}
+            {{ range (where $.Translations "Lang" $lang) }}
+            {{ $target = .RelPermalink }}
+            {{ break }}
+            {{ end }}
+            {{ end }}
+
+            {{/* Fall back to the language home */}}
+            {{ if not $target }}
+              {{ if eq $lang $.Site.Language.Lang }}
+               {{ $target = "/" }}
+              {{ else }}
+               {{ $target = (printf "/%s/" $lang) }}
+              {{ end }}
+            {{ end }}
+
+            <li role="none">
+              <a role="menuitem" class="lang-item {{ if eq $lang $.Site.Language.Lang }}is-active{{ end }}"
+                href="{{ $target }}">
+                {{ $label }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

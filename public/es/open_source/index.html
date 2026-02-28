@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>100% Open Source · CoopVPN</title>
+    <meta name="description" content="A VPN you can trust.">
+    <link rel="stylesheet" href="/css/main.css">
+    <script defer src="/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="/es/">CoopVPN</a>
+
+      <div class="nav-right">
+        <a class="nav-link" href="/es/#about">Acerca de</a>
+        <a class="nav-link" href="/es/privacy_policy/">Política de Privacidad</a>
+        <a class="nav-link" href="/es/open_source/">Política de código abierto</a>
+
+
+        
+        <div class="lang">
+          <button class="lang-button" type="button" aria-haspopup="true" aria-expanded="false">
+            Español
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+
+          <ul class="lang-menu" role="menu">
+            
+            
+            
+
+            
+
+            
+            
+            
+            
+            
+            
+
+            
+            
+
+            <li role="none">
+              <a role="menuitem" class="lang-item "
+                href="/open_source/">
+                English
+              </a>
+            </li>
+            
+            
+            
+
+            
+
+            
+            
+            
+            
+
+            
+            
+              
+               
+              
+            
+
+            <li role="none">
+              <a role="menuitem" class="lang-item is-active"
+                href="/">
+                Español
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+    <main id="main">
+      
+<section class="section">
+  <div class="container container--wide">
+    <div class="page-narrow">
+      <h1 class="page-title">100% Open Source</h1>
+      
+
+      <div class="page-content">
+        <p>At LEAP we strongly believe in sharing of knowledge, there&rsquo;s no other way to develop code that LEAP uses other than open source, we&rsquo;ll forever keep our code open source, there will never be any secret sauce that LEAP employs in its stack, we believe that security by obscurity is a fallacy, we&rsquo;ll open source all our code except for &ldquo;secrets/credentials&rdquo; we want anyone to be able to replicate our stack, as part of this we&rsquo;ll always develop in the open and will try to remove any barriers to open collaborations to the extent that we&rsquo;ll mirror our code to capitalist entities like Github to ensure there&rsquo;s less friction for others to use our stack</p>
+<p>All our new code will be licensed under the GPL license or licenses that are compatible with GPL, if we ever have to use MIT/BSD/Apache or other permissible license code we&rsquo;ll try our best to remove those dependencies and invest to create alternatives that are licensed under copy left</p>
+<p><strong>after providing the above to an AI (Gemini 3 pro) it generated the following policy, i think this is a good starting point for us to review/refine it further</strong></p>
+<hr>
+<h2 id="leap-open-source-policy">LEAP Open Source Policy</h2>
+<p><strong>Version 1.0</strong></p>
+<!-- raw HTML omitted -->
+<p>At LEAP, we reject the fallacy of &ldquo;security by obscurity.&rdquo; We believe that software sovereignty relies on the freedom to inspect, modify, and replicate the systems we depend on.</p>
+<ul>
+<li><strong>No Secret Sauce:</strong> Every line of code running in our stack, from the client interface to the backend infrastructure, is public.</li>
+<li><strong>Total Transparency:</strong> We develop in the open. Our internal repositories <em>are</em> our public repositories.</li>
+<li><strong>Copyleft Maximalism:</strong> We prioritize the collective good over proprietary gain. We aggressively prefer Copyleft licensing to ensure improvements are permanently returned to the commons.</li>
+</ul>
+<p><em>// cyberta: tbh, I like the prompt text more than this generated section</em></p>
+<p><em>// this is another attempt:</em></p>
+<p><em>At <strong>LEAP</strong>, we believe that software sovereignty is built on the freedom to inspect, modify, and replicate the systems we rely on.</em></p>
+<p><em>We are committed to keeping all our code open, with the exception of sensitive information such as secrets and credentials. This transparency empowers others to understand and replicate our technology stack, fostering trust and cultivating a vibrant community of developers and users.</em></p>
+<p><em>To uphold this philosophy, we will continuously develop in the open and collaborate on our independent <strong>GitLab</strong> instances, while also mirroring our code on big tech platforms like <strong>GitHub</strong>. This approach ensures autonomy, removes barriers, and enhances visibility, allowing anyone to engage with our projects and contribute to our shared goals. Together, we strive to advance the capabilities of open-source technology.</em></p>
+<h2 id="2-licensing-matrix">2. Licensing Matrix</h2>
+<p>We employ a multi-license strategy to maximize freedom while ensuring reciprocity.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>License</th>
+          <th>Rationale</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>SaaS Backend / Server</strong></td>
+          <td><strong>GNU AGPLv3</strong></td>
+          <td>Ensures that any provider (including competitors) hosting our stack must release their modifications. This prevents the &ldquo;cloud loophole&rdquo; where SaaS providers use code without contributing back.</td>
+      </tr>
+      <tr>
+          <td><strong>Client Applications</strong></td>
+          <td><strong>GNU GPLv3</strong></td>
+          <td>Ensures that end-user software remains free. Any modified versions distributed to users must also be open source.</td>
+      </tr>
+      <tr>
+          <td><strong>Shared Libraries / SDKs</strong></td>
+          <td><strong>GNU LGPLv3</strong></td>
+          <td>Allows developers to build tools upon our core libraries without being forced to open-source their <em>entire</em> application, provided they modify the LEAP library code itself only under open terms.</td>
+      </tr>
+      <tr>
+          <td><strong>Documentation</strong></td>
+          <td><strong>CC-BY-SA 4.0</strong></td>
+          <td>Applies the same &ldquo;share-alike&rdquo; principles to our written knowledge.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="3-dependency--usage-policy">3. Dependency &amp; Usage Policy</h2>
+<p>We actively curate our supply chain to align with our ideological goals.</p>
+<ul>
+<li><strong>Permissive License Phasing:</strong> While we technically allow dependencies compliant with GPL (e.g., MIT, BSD, Apache 2.0), we view permissive licensing as a weakness that allows proprietary enclosure.
+<ul>
+<li><em>Goal:</em> Where feasible, we will invest engineering resources to replace permissive dependencies with Copyleft equivalents or fork/maintain them under Copyleft terms.</li>
+</ul>
+</li>
+<li><strong>Prohibited Licenses:</strong> We strictly prohibit the use of:
+<ul>
+<li>Proprietary/Closed Source libraries.</li>
+<li>&ldquo;Source Available&rdquo; licenses that restrict commercial use (e.g., BSL, SSPL, Commons Clause).</li>
+<li>JSON License (&ldquo;Good not Evil&rdquo;) or other non-standard fields.</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-contribution-policy-dco">4. Contribution Policy (DCO)</h2>
+<p>To minimize friction and avoid corporate legal barriers, we do <strong>not</strong> require a Contributor License Agreement (CLA). Instead, we use the <strong>Developer Certificate of Origin (DCO) 1.1</strong>.</p>
+<p>By submitting a contribution (pull request, commit, patch) to LEAP, you certify the following via a <code>Signed-off-by</code> line in your commit message:</p>
+<blockquote>
+<p><strong>Developer Certificate of Origin 1.1</strong></p>
+<p>By making a contribution to this project, I certify that:</p>
+<p>(a) The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or</p>
+<p>(b) The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or</p>
+<p>(c) The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it.</p>
+<p>(d) I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.</p>
+</blockquote>
+<p><strong>How to Sign Off:</strong><br>
+Contributors must sign their commits using <code>git commit -s</code>.</p>
+<ul>
+<li>Example: <code>Signed-off-by: Jane Doe &lt;jane.doe@example.com&gt;</code></li>
+</ul>
+<h2 id="5-community--mirroring">5. Community &amp; Mirroring</h2>
+<ul>
+<li><strong>Canonical Source:</strong> Our primary development occurs on our self-hosted instances to preserve independence.</li>
+<li><strong>Mirrors:</strong> We push read-only mirrors to GitHub/GitLab to reach developers where they are, but we do not depend on their proprietary workflows for our CI/CD or issue tracking where possible.</li>
+<li><strong>Forking:</strong> We encourage forking. If you run a LEAP instance, you are a partner, not a competitor. We only ask that you respect the AGPLv3 and share your improvements.</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>At <strong>LEAP</strong>, we believe that software sovereignty is built on the freedom to inspect, modify, and replicate the systems we rely on.</p>
+<p>We are committed to keeping all our code open, with the exception of sensitive information such as secrets and credentials. This transparency empowers others to understand and replicate our technology stack, fostering trust and cultivating a vibrant community of developers and users.</p>
+<p>To uphold this philosophy, we will continuously develop in the open and collaborate on our independent <strong>GitLab</strong> instances, while also mirroring our code on big tech platforms like <strong>GitHub</strong>. This approach ensures autonomy, removes barriers, and enhances visibility, allowing anyone to engage with our projects and contribute to our shared goals. Together, we strive to advance the capabilities of open-source technology.</p>
+<blockquote>
+<p><strong>Comments</strong></p>
+<p>jkito: the above section lgtm</p>
+</blockquote>
+<h2 id="2-licensing-matrix-1">2. Licensing Matrix</h2>
+<p>We employ a multi-license strategy to maximize freedom while ensuring reciprocity.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>License</th>
+          <th>Rationale</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>SaaS Backend / Server</strong></td>
+          <td><strong>GNU AGPLv3</strong></td>
+          <td>Ensures that any provider (including competitors) hosting our stack must release their modifications. This prevents the &ldquo;cloud loophole&rdquo; where SaaS providers use code without contributing back.</td>
+      </tr>
+      <tr>
+          <td><strong>Client Applications</strong></td>
+          <td><strong>GNU GPLv3</strong></td>
+          <td>Ensures that end-user software remains free. Any modified versions distributed to users must also be open source.</td>
+      </tr>
+      <tr>
+          <td><strong>Shared Libraries / SDKs</strong></td>
+          <td><strong>GNU LGPLv3</strong></td>
+          <td>Allows developers to build tools upon our core libraries without being forced to open-source their <em>entire</em> application, provided they modify the LEAP library code itself only under open terms.</td>
+      </tr>
+      <tr>
+          <td><strong>Documentation</strong></td>
+          <td><strong>CC-BY-SA 4.0</strong></td>
+          <td>Applies the same &ldquo;share-alike&rdquo; principles to our written knowledge.</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p><strong>Comments</strong></p>
+<p>jkito: the above section lgtm</p>
+</blockquote>
+<h2 id="3-dependency--usage-policy-1">3. Dependency &amp; Usage Policy</h2>
+<p>We actively curate our supply chain to align with our ideological goals.</p>
+<ul>
+<li><strong>Permissive License Phasing:</strong> While we technically allow dependencies compliant with GPL (e.g., MIT, BSD, Apache 2.0), we view permissive licensing as a weakness that allows proprietary enclosure.
+<ul>
+<li><em>Goal:</em> Where feasible, we will invest engineering resources to replace permissive dependencies with Copyleft equivalents or fork/maintain them under Copyleft terms.</li>
+</ul>
+</li>
+<li><strong>Prohibited Licenses:</strong> We strictly prohibit the use of:
+<ul>
+<li>Proprietary/Closed Source libraries.</li>
+<li>&ldquo;Source Available&rdquo; licenses that restrict commercial use (e.g., BSL, SSPL, Commons Clause).</li>
+<li>JSON License (&ldquo;Good not Evil&rdquo;) or other non-standard fields.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>Comments</strong></p>
+<p>jkito: i find the section heading unclear, it doesn’t mention anything about licenses while the section lists out what licenses we prefer and what we restrict, i’d rename the heading to “something_else“</p>
+</blockquote>
+<h2 id="4-contribution-policy-dco-1">4. Contribution Policy (DCO)</h2>
+<p>To minimize friction and avoid corporate legal barriers, we do <strong>not</strong> require a Contributor License Agreement (CLA). Instead, we use the <strong>Developer Certificate of Origin (DCO) 1.1</strong>.</p>
+<p>By submitting a contribution (pull request, commit, patch) to LEAP, you certify the following via a <code>Signed-off-by</code> line in your commit message:</p>
+<blockquote>
+<p><strong>Developer Certificate of Origin 1.1</strong></p>
+<p>By making a contribution to this project, I certify that:</p>
+<p>(a) The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or</p>
+<p>(b) The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or</p>
+<p>(c) The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it.</p>
+<p>(d) I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.</p>
+</blockquote>
+<p><strong>How to Sign Off:</strong><br>
+Contributors must sign their commits using <code>git commit -s</code>.</p>
+<ul>
+<li>Example: <code>Signed-off-by: Jane Doe &lt;jane.doe@example.com&gt;</code></li>
+</ul>
+<blockquote>
+<p><strong>Comments</strong></p>
+<p>jkito: the very first line can be simplified to just: “We require contributions to our project to use the  <strong>Developer Certificate of Origin (DCO) 1.1</strong>. and instead of quoting the agreement text here we just link to the website (on a sidenote: we need CI to fail when DCO is not added)</p>
+</blockquote>
+<h2 id="5-community--mirroring-1">5. Community &amp; Mirroring</h2>
+<ul>
+<li><strong>Canonical Source:</strong> Our primary development occurs on our self-hosted GitLab instance to preserve independence.</li>
+<li><strong>Mirrors:</strong> We mirror our repositories to GitHub/GitLab.com to reach developers where they are, but we do not depend on their proprietary workflows for our CI/CD or issue tracking where possible.</li>
+<li><strong>Forking:</strong> We encourage forking. If you run a LEAP instance, you are a partner, not a competitor. We only ask that you respect the AGPLv3 and share your improvements.</li>
+</ul>
+<blockquote>
+<p><strong>Comments</strong></p>
+<p>jkito: above section lgtm</p>
+</blockquote>
+<!-- raw HTML omitted -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="site-footer">
+  <div class="footer-links">
+    <div class="container">
+      <a href="/es/contact/">Contacto</a>
+      <a href="/es/privacy/">Política de privacidad</a>
+      <a href="/es/code/">Política de código</a>
+      <a href="/es/cooperative/">Política cooperativa</a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

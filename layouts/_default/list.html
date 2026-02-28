@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="section section--white">
+  <div class="container container--wide">
+    <h1 class="h1">{{ with .Title }}{{ . }}{{ else }}{{ i18n "blog_title" }}{{ end }}</h1>
+
+    {{ if .Content }}
+      <div class="prose">{{ .Content }}</div>
+    {{ end }}
+
+    <div class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="post-card">
+          <h2 class="h3"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p class="muted">{{ .Date.Format "Jan 2, 2006" }}</p>
+          {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

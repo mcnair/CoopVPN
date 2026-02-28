@@ -1,0 +1,35 @@
+baseURL = "https://example.org/"
+title = "CoopVPN"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[params]
+  description = "A VPN you can trust."
+  github_repo = "https://example.org/code"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    contentDir = "content/es"
+    weight = 2
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/#about"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+
+
+
