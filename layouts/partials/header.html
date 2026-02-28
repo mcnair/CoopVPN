@@ -4,9 +4,9 @@
       <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
 
       <div class="nav-right">
-        <a class="nav-link" href="{{ "/#about" | relLangURL }}">{{ i18n "nav_about" }}</a>
-        <a class="nav-link" href="{{ "/privacy_policy/" | relLangURL }}">{{ i18n "nav_privacy policy" }}</a>
-        <a class="nav-link" href="{{ "/open_source/" | relLangURL }}">{{ i18n "nav_open_source_policy" }}</a>
+        <a class="nav-link" href="{{ "/#about" | absLangURL }}">{{ i18n "nav_about" }}</a>
+        <a class="nav-link" href="{{ "/privacy_policy/" | absLangURL }}">{{ i18n "nav_privacy policy" }}</a>
+        <a class="nav-link" href="{{ "/open_source/" | absLangURL }}">{{ i18n "nav_open_source_policy" }}</a>
 
 
         {{/* Language switcher: prefer same-page translation; fall back to that language's home */}}
