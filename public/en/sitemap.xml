@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:1313/CoopVPN/blog/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/CoopVPN/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="http://localhost:1313/CoopVPN/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/CoopVPN/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/welcome/</loc>
+    <loc>http://localhost:1313/CoopVPN/blog/welcome/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/open_source/</loc>
+    <loc>http://localhost:1313/CoopVPN/open_source/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/open_source/"
+                href="http://localhost:1313/CoopVPN/es/open_source/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/open_source/"
+                href="http://localhost:1313/CoopVPN/open_source/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/CoopVPN/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="http://localhost:1313/CoopVPN/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/CoopVPN/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/code/</loc>
+    <loc>http://localhost:1313/CoopVPN/code/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/CoopVPN/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/cooperative/</loc>
+    <loc>http://localhost:1313/CoopVPN/cooperative/</loc>
   </url><url>
-    <loc>http://localhost:1313/privacy_policy/</loc>
+    <loc>http://localhost:1313/CoopVPN/privacy_policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/privacy_policy/"
+                href="http://localhost:1313/CoopVPN/es/privacy_policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/privacy_policy/"
+                href="http://localhost:1313/CoopVPN/privacy_policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/CoopVPN/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="http://localhost:1313/CoopVPN/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/CoopVPN/tags/"
                 />
   </url>
 </urlset>
