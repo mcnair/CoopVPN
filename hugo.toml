@@ -6,7 +6,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   description = "A VPN you can trust."
-  github_repo = "https://example.org/code"
+  github_repo = "https://mcnair.github.io/"
 
 [languages]
   [languages.en]
