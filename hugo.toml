@@ -4,6 +4,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+canonifyURLs = true
+
 [params]
   description = "A VPN you can trust."
   github_repo = "https://mcnair.github.io/"
@@ -19,17 +21,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
 
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/#about"
-    weight = 10
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 20
+
 
 
 

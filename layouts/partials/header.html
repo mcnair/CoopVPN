@@ -1,12 +1,12 @@
 <header class="site-header">
   <div class="container">
     <nav class="nav">
-      <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+      <a class="brand" href="{{ "/" | absURL }}">{{ .Site.Title }}</a>
 
       <div class="nav-right">
-        <a class="nav-link" href="{{ "/#about" | absLangURL }}">{{ i18n "nav_about" }}</a>
-        <a class="nav-link" href="{{ "/privacy_policy/" | absLangURL }}">{{ i18n "nav_privacy policy" }}</a>
-        <a class="nav-link" href="{{ "/open_source/" | absLangURL }}">{{ i18n "nav_open_source_policy" }}</a>
+        <a class="nav-link" href="{{ "/#about" | absURL }}">{{ i18n "nav_about" }}</a>
+        <a class="nav-link" href="{{ "/privacy_policy/" | absURL }}">{{ i18n "nav_privacy policy" }}</a>
+        <a class="nav-link" href="{{ "/open_source/" | absURL }}">{{ i18n "nav_open_source_policy" }}</a>
 
 
         {{/* Language switcher: prefer same-page translation; fall back to that language's home */}}
