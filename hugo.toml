@@ -1,9 +1,12 @@
-baseURL = "https://mcnair.github.io/CoopVPN/"
-title = "CoopVPN"
+#baseURL = "https://mcnair.github.io/CoopVPN/"
+baseURL = "https://kwadronaut.github.io/CoOpVPN/"
+title = "CoOpVPN"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+relativeURLs = true
+canonifyURLs = false
 
 [params]
   description = "A VPN you can trust."

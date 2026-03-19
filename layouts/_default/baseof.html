@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-    <script defer src="{{ "js/main.js" | relURL }}"></script>
+    <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
+    <script defer src="{{ "/js/main.js" | relURL }}"></script>
   </head>
   <body>
     {{ partial "header.html" . }}

@@ -3,7 +3,7 @@ title: "100% Open Source"
 layout: single
 ---
 
-At LEAP we strongly believe in sharing of knowledge, there's no other way to develop code that LEAP uses other than open source, we'll forever keep our code open source, there will never be any secret sauce that LEAP employs in its stack, we believe that security by obscurity is a fallacy, we'll open source all our code except for "secrets/credentials" we want anyone to be able to replicate our stack, as part of this we'll always develop in the open and will try to remove any barriers to open collaborations to the extent that we'll mirror our code to capitalist entities like Github to ensure there's less friction for others to use our stack
+En LEAP creemos firmemente en el intercambio de conocimientos, there's no other way to develop code that LEAP uses other than open source, we'll forever keep our code open source, there will never be any secret sauce that LEAP employs in its stack, we believe that security by obscurity is a fallacy, we'll open source all our code except for "secrets/credentials" we want anyone to be able to replicate our stack, as part of this we'll always develop in the open and will try to remove any barriers to open collaborations to the extent that we'll mirror our code to capitalist entities like Github to ensure there's less friction for others to use our stack
 
 All our new code will be licensed under the GPL license or licenses that are compatible with GPL, if we ever have to use MIT/BSD/Apache or other permissible license code we'll try our best to remove those dependencies and invest to create alternatives that are licensed under copy left
 

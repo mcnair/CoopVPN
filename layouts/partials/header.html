@@ -1,13 +1,12 @@
 <header class="site-header">
   <div class="container">
     <nav class="nav">
-      <a class="brand" href="{{ "/" | absURL }}">{{ .Site.Title }}</a>
+      <a class="brand" href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
 
       <div class="nav-right">
-        <a class="nav-link" href="{{ "/#about" | absURL }}">{{ i18n "nav_about" }}</a>
-        <a class="nav-link" href="{{ "/privacy_policy/" | absURL }}">{{ i18n "nav_privacy policy" }}</a>
-        <a class="nav-link" href="{{ "/open_source/" | absURL }}">{{ i18n "nav_open_source_policy" }}</a>
-
+        <a class="nav-link" href="{{ "/#about" | relLangURL }}">{{ i18n "nav_about" }}</a>
+        <a class="nav-link" href="{{ "/privacy_policy/" | relLangURL }}">{{ i18n "nav_privacy policy" }}</a>
+        <a class="nav-link" href="{{ "/open_source/" | relLangURL }}">{{ i18n "nav_open_source_policy" }}</a>
 
         {{/* Language switcher: prefer same-page translation; fall back to that language's home */}}
         <div class="lang">
@@ -34,9 +33,9 @@
             {{/* Fall back to the language home */}}
             {{ if not $target }}
               {{ if eq $lang $.Site.Language.Lang }}
-               {{ $target = "/" }}
+               {{ $target = "/" | relURL }}
               {{ else }}
-               {{ $target = (printf "/%s/" $lang) }}
+               {{ $target = (printf "/%s/" $lang) | relURL }}
               {{ end }}
             {{ end }}
 
