@@ -22,20 +22,24 @@
 
             {{ $target := "" }}
 
-            {{/* If we're on a page, try to find that page's translation in this language */}}
-            {{ if $.IsPage }}
-            {{ range (where $.Translations "Lang" $lang) }}
-            {{ $target = .RelPermalink }}
-            {{ break }}
-            {{ end }}
+            {{/* 1. If this loop is checking the language we are ALREADY on, just use the current page's permalink */}}
+            {{ if eq $lang $.Site.Language.Lang }}
+              {{ $target = $.Permalink }}
+            {{/* 2. Otherwise, check if a translation exists for this specific page */}}
+            {{ else if $.IsTranslated }}
+              {{ range $.Translations }}
+                {{ if eq .Lang $lang }}
+                  {{ $target = .Permalink }}
+                {{ end }}
+              {{ end }}
             {{ end }}
 
-            {{/* Fall back to the language home */}}
-            {{ if not $target }}
-              {{ if eq $lang $.Site.Language.Lang }}
-               {{ $target = "/" | relURL }}
-              {{ else }}
-               {{ $target = (printf "/%s/" $lang) | relURL }}
+            {{/* 3. If no translation exists at all, fall back safely to that language's Home Page */}}
+            {{ if eq $target "" }}
+              {{ range $.Site.Home.AllTranslations }}
+                {{ if eq .Lang $lang }}
+                  {{ $target = .Permalink }}
+                {{ end }}
               {{ end }}
             {{ end }}
 
