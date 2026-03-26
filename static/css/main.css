@@ -135,6 +135,14 @@ a:hover {
   order: 2;
 }
 
+.two-col__media img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Desktop breakpoint: matches "md:" behavior in reference */
 @media (min-width: 768px) {
   .two-col {
@@ -371,8 +379,8 @@ a:hover {
   border: 1px solid var(--purple);
   border-radius: var(--radius);
   padding: 1rem var(--pad-x);
-  margin: var(--pad-y) auto 0rem auto;
-  /* Top: 5rem, Bottom: 2rem */
+  margin: var(--pad-y) auto 2rem auto;
+  /* Centered within container */
   max-width: 60rem;
   text-align: center;
   animation: fadeInBanner 1s ease-in;

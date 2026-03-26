@@ -4,6 +4,8 @@
   translation: "Privacy Policy"
 - id: nav_open_source_policy
   translation: "Open Source Policy"
+- id: nav_tos
+  translation: "Terms of Service"
 - id: nav_blog
   translation: "Blog"
 - id: nav_language

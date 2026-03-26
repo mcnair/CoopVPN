@@ -3,60 +3,101 @@ title: "CoopVPN Policy"
 layout: single
 ---
 
+**Effective Date:** March 26, 2026 **Last Updated:** March 26, 2026
 
-### The Prime Directive: You Are Not a Product
+⚠️ **Beta Disclaimer:** This privacy policy is a draft document associated with a beta version of our VPN service. While the practices described here reflect our genuine intentions and current operational standards, some details may be subject to change as the service matures. We recommend checking back for updates. By using our service during this beta period, you acknowledge that features and policies may evolve.
 
-At LEAP, privacy is not a compliant checkbox; it is the fundamental architecture of our service. We reject the surveillance capitalism model. We do not sell your data, we do not mine your behavior for insights, and we do not track you across the web.
+---
 
-### The "No-Logs" Technical Guarantee
+This Privacy Policy describes how we collect, use, and protect your information when you visit our website or use our VPN service. We are committed to your privacy. This policy is divided into two sections: one covering our **Website** and one covering our **VPN Service**.
 
-We operate under a strict No-Logs Policy. This is not just a promise; it is an engineering constraint. We have designed our Platform and Client backend to ensure that we technically cannot view your activity even if compelled to do so.
+---
 
-- No IP Logging: We do not record, store, or analyze incoming IP addresses. Your connection data is discarded immediately after the handshake.
-- No Activity Tracking: We do not log which buttons you click, how long you stay on a page, or how you interact with the software. There is no behavioral analytics engine (e.g., Google Analytics, Mixpanel) running on our stack.
-- No Metadata Retention: We do not store metadata regarding when you access the service or how much data you transfer, beyond the absolute minimum required to prevent abuse (e.g., ephemeral rate limiting in memory).
+## Website Privacy
 
-If a government or third party requests your usage logs, our answer is simple: We cannot provide what we do not possess.
+### 1.1 No Tracking, No Cookies
 
-### Data We Actually Collect
+When you visit our website, we do not:
 
-(needs a closer look)
+- Place any cookies on your device (session, persistent, or third-party)
+- Use tracking pixels, web beacons, or fingerprinting scripts
+- Load any third-party analytics tools
+- Run advertising scripts or tracking code
+- Track your browsing behavior, referral source, or time on page
 
-cyberta: we may want to distinguish for the different services, e.g. for the website, maybe for a forum and for the VPN service?  
-kwadro: very good point there! How are we going to a/b test?
+Our website is purely informational. You can browse it without any data being collected **by us.**
 
-To provide the Service, we process only the absolute minimum required data:
+### 1.2 No IP Address Logging
 
-- Account Credentials: We store a hashed (irreversible) version of your password and your username/email to facilitate login.
-- Encrypted Content: The data you explicitly save within the LEAP SaaS is stored encrypted. We treat this as a "blob"; we do not index or scan the contents of your work.
-- Session Cookies: We use a single, temporary session cookie solely to keep you logged in. We do not use persistent tracking cookies, pixels, or fingerprinting scripts. technology
-- // currently we don’t use session cookies at all
+We do not log, record, or store the IP address of visitors to our website. Your IP address is never written to any server log, database, or file under our control.
 
-### Financial Transactions (The Transparency Clause)
+### 1.3 No Personal Data Collection (Website)
 
-While we maintain zero knowledge of your usage, we operate in a capitalist economy and must process payments to sustain our infrastructure. We use third-party processors to handle this isolation.
+Unless you actively choose to contact us, we collect no personal information through the website.
 
-- Payment Processors: We accept payments via <paymen_processor> and <payment_processor>.
-- What They See: When you pay, you are interacting directly with the processor's interface. They will see your financial details, legal name, and billing address. Their privacy policies apply during the transaction.
-- What We See: LEAP never sees or stores your credit card number or bank account details. We receive only a transaction confirmation token (e.g., Transaction ID: ABC-123) and the email address associated with the payment to link it to your LEAP account pro-rata.
-- Data Separation: We deliberately keep payment data (the ledger of who paid) logically separated from usage data (what you do in the app).
+### 1.4 No Third-Party Content
 
-### Zero Dark Patterns Guarantee
+Our website does not embed third-party content such as social media buttons, external fonts loaded from remote servers, or embedded videos that could allow third parties to track you.
 
-We consider "Dark Patterns"—design tricks that confuse or trap users—to be unethical.
+### 1.5 What We Do Not Sell
 
-- Easy Cancellation: cancelling your account is as easy, if not easier, than signing up. There are no retention flows, "are you sure?" guilting screens, or phone calls required.
-- No Hidden Opt-Ins: We never pre-check boxes for newsletters or data sharing.
-- Exportability: Consistent with our Open Source Policy, you may export your data at any time in standard, open formats without restriction.
+We do not sell, rent, share, or monetize any visitor data because we do not collect any.
 
-// cyberta: what would that mean in terms of the VPN service? Export the openvpn configs for example? we could offer that as an option, but it’s not there yet.
+### 1.6 Third-Party Infrastructure Notice
 
-// jkito: i concur, the user should have the right to access the gateway in anyway they want
+Our website is hosted on **GitHub Pages**. While we do not collect any data ourselves, GitHub (a Microsoft subsidiary) may process certain technical information such as IP addresses and HTTP request headers as part of serving the website to you. This is handled entirely by GitHub's infrastructure and is outside of our control. We encourage you to review [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details on what they may log.
 
-### Third-Party Requests
+Additionally, when your browser resolves our domain name (DNS), that request may be visible to your Internet Service Provider (ISP) or the DNS resolver you use. This is a fundamental aspect of how the internet works and is beyond our control. If this concerns you, we recommend using an encrypted DNS resolver (such as DNS-over-HTTPS) or connecting through our VPN service, which handles DNS resolution privately on your behalf.
 
-Because we do not log IP addresses or usage activity, we are functionally unable to comply with subpoenas requesting user activity logs. If we are legally compelled to turn over the data we do have (payment email or account existence), we will notify the user immediately unless strictly prohibited by a valid gag order.
+---
+
+## VPN Service Privacy
+
+> ⚠️ **Beta Notice:** Our VPN service is currently in beta. The no-logs policy described below is already in effect, but certain technical configurations and infrastructure details may change as we finalize the service. We are committed to maintaining or improving our privacy standards as the service develops.
+
+### 2.1 Our Core Commitment: A Strict No-Logs Policy
+
+We operate a strict, unconditional no-logs VPN service. This means we do not collect, store, or process any of the following:
+
+- Your originating IP address
+- The IP addresses of servers or websites you connect to
+- The date, time, or duration of your VPN sessions
+- The amount of data you transfer
+- Your DNS queries
+- Your browsing history, traffic content, or application usage
+- Any metadata that could be used to identify or reconstruct your online activity
+
+We are technically unable to link any activity on our network to a specific user, because we simply do not record it.
+
+### 2.2 No IP Logging on the VPN Network
+
+When you connect to our VPN servers, your originating IP address is never logged. Our servers are configured to:
+
+- Not write any user-identifiable data to disk
+- Operate without any monitoring tools that could capture user traffic
+
+### 2.3 No Selling of User Data
+
+We do not and will never sell, rent, or share user data with advertisers, data brokers, or any other third party for commercial purposes.
+
+---
+
+## General Provisions
+
+### Contact
+
+If you have any questions about this Privacy Policy, please contact us at:
+
+**privacy@coopvpn.net**
 
 ### Changes to This Policy
 
-We will never quietly weaken this policy. Any changes to our privacy architecture will be announced publicly on our primary repository. As open source software, you can inspect our code to verify that our logging practices match this policy.
+If we make material changes to this policy, we will update the "Last Updated" date at the top of this document and notify users through appropriate channels. We encourage you to review this policy periodically, particularly during the beta period when changes are more likely.
+
+### Governing Law
+
+This policy is governed by the laws of the jurisdiction in which we are incorporated, to the extent applicable to privacy and data protection.
+
+---
+
+*This policy reflects our genuine operational practices. We believe privacy is a right, not a feature.*
