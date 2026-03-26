@@ -10,6 +10,13 @@
   </head>
   <body>
     {{ partial "header.html" . }}
+    {{ if and .IsHome .Site.Params.show_homepage_banner }}
+    <div class="banner-homepage">
+      <p class="banner-homepage__text">
+      <span class="banner-homepage__icon">⚠</span>
+      {{ i18n "homepage_banner" }}</p>
+    </div>
+    {{ end }}
     <main id="main">
       {{ block "main" . }}{{ end }}
     </main>

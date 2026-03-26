@@ -8,6 +8,8 @@
   translation: "Blog"
 - id: nav_language
   translation: "Idioma"
+- id: homepage_banner
+  translation: "CoopVPN es un proveedor de VPN emergente que trabaja en estrecha colaboración con el equipo del Proyecto de Acceso a Cifrado LEAP. La aplicación y este sitio web están en versión beta, destinados únicamente para pruebas y comentarios."
 - id: cta_download
   translation: "Descargar en Google Play"
 - id: hero_title

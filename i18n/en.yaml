@@ -8,6 +8,8 @@
   translation: "Blog"
 - id: nav_language
   translation: "Language"
+- id: homepage_banner
+  translation: "CoopVPN is an emerging VPN provider working closely with the LEAP Encryption Access Project team. The app and this website are in beta, intended only for testing and feedback."
 - id: cta_download
   translation: "Download on Google Play"
 - id: hero_title

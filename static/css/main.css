@@ -111,6 +111,8 @@ a:hover {
   margin-right: auto;
 }
 
+
+
 /* Two-column section layout (mirrors grid md:grid-cols-2 gap-16) */
 .two-col {
   display: grid;
@@ -359,6 +361,41 @@ a:hover {
   background: var(--accent-hover);
   transform: translateY(-0.25rem);
   text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+   Homepage Banner
+------------------------------------------------------------ */
+.banner-homepage {
+  background-color: var(--cream);
+  border: 1px solid var(--purple);
+  border-radius: var(--radius);
+  padding: 1rem var(--pad-x);
+  margin: var(--pad-y) auto 0rem auto;
+  /* Top: 5rem, Bottom: 2rem */
+  max-width: 60rem;
+  text-align: center;
+  animation: fadeInBanner 1s ease-in;
+}
+
+.banner-homepage__text {
+  margin: 0 auto;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 700;
+  color: var(--text);
+}
+
+@keyframes fadeInBanner {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ------------------------------------------------------------
