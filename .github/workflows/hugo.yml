@@ -40,14 +40,18 @@ jobs:
         
       - name: Build with Hugo (via Docker)
         env:
-          HUGO_ENVIRONMENT: production
+          # HUGO_ENVIRONMENT: production
+          # If it's the main branch, use your Production URL from GitHub Variables. 
+          # Otherwise, fall back to the dynamic GitHub Pages URL.
+          DYNAMIC_BASE_URL: ${{ github.ref == 'refs/heads/main' && vars.PRODUCTION_URL || steps.pages.outputs.base_url }}
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/src \
             --user $(id -u):$(id -g) \
             docker.io/floryn90/hugo:asciidoctor \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ env.DYNAMIC_BASE_URL }}/"
+        ## --baseURL "${{ steps.pages.outputs.base_url }}/"
             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
