@@ -262,6 +262,11 @@ a:hover {
   gap: 1rem;
 }
 
+.nav a.active {
+  border-bottom: 2px solid var(--cream);
+  font-weight: 600;
+}
+
 .brand {
   font-size: 1.5rem;
   font-weight: 800;
