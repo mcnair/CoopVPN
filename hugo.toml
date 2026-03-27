@@ -1,15 +1,17 @@
 baseURL = "https://mcnair.github.io/CoopVPN/"
+#baseURL = "https://coopvpn.net/"
 title = "CoopVPN"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 relativeURLs = true
+#relativeURLs = false
 canonifyURLs = false
 
 [params]
   description = "A VPN you can trust."
-  github_repo = "https://mcnair.github.io/"
+  github_repo = "https://coopvpn.net/"
   show_homepage_banner = true
 
 [languages]
@@ -21,9 +23,3 @@ canonifyURLs = false
     languageName = "Español"
     contentDir = "content/es"
     weight = 2
-
-
-
-
-
-
