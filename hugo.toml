@@ -5,8 +5,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-#relativeURLs = true
-relativeURLs = false
+relativeURLs = true
+#relativeURLs = false
 canonifyURLs = false
 
 [params]
