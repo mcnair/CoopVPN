@@ -43,17 +43,11 @@ Our website does not embed third-party content such as social media buttons, ext
 
 We do not sell, rent, share, or monetize any visitor data because we do not collect any.
 
-### 1.6 Third-Party Infrastructure Notice
-
-Our website is hosted on **GitHub Pages**. While we do not collect any data ourselves, GitHub (a Microsoft subsidiary) may process certain technical information such as IP addresses and HTTP request headers as part of serving the website to you. This is handled entirely by GitHub's infrastructure and is outside of our control. We encourage you to review [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details on what they may log.
-
-Additionally, when your browser resolves our domain name (DNS), that request may be visible to your Internet Service Provider (ISP) or the DNS resolver you use. This is a fundamental aspect of how the internet works and is beyond our control. If this concerns you, we recommend using an encrypted DNS resolver (such as DNS-over-HTTPS) or connecting through our VPN service, which handles DNS resolution privately on your behalf.
-
 ---
 
 ## VPN Service Privacy
 
-> ⚠️ **Beta Notice:** Our VPN service is currently in beta. The no-logs policy described below is already in effect, but certain technical configurations and infrastructure details may change as we finalize the service. We are committed to maintaining or improving our privacy standards as the service develops.
+⚠️ **Beta Notice:** Our VPN service is currently in beta. The no-logs policy described below is already in effect, but certain technical configurations and infrastructure details may change as we finalize the service. We are committed to maintaining or improving our privacy standards as the service develops.
 
 ### 2.1 Our Core Commitment: A Strict No-Logs Policy
 
