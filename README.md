@@ -16,3 +16,10 @@ hugo server -D
 ```bash
 hugo new blog/my-post.md
 ```
+
+You want to build and deploy?
+
+```
+docker run --rm -p 1313:1313 --user $(id -u):$(id -g)  -v $(pwd):/src  coopvpn-builder build -e production --baseURL "https://coopvpn.net" 
+rsync -av --info=PROGRESS2 public/ root@coopvpn.net:/var/www/html/
+```
