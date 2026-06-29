@@ -46,6 +46,10 @@
   translation: "Monthly"
 - id: free
   translation: "Free"
+- id: status_live
+  translation: "Live"
+- id: status_coming_soon
+  translation: "Coming soon"
 - id: feature_limited_bandwidth
   translation: "Limited bandwidth"
 - id: feature_limited_support

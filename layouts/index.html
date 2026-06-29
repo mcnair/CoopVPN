@@ -90,8 +90,9 @@
 
     <div class="cards">
       <article class="card card--plain">
+        <span class="plan-status plan-status--live">{{ i18n "status_live" }}</span>
         <h3 class="h3 center">{{ i18n "plan_community" }}</h3>
-        <p class="muted center">{{ i18n "billing_yearly" }}</p>
+        <p class="muted center">{{ "_" }}</p>
         <div class="price center">{{ i18n "free" }}</div>
         <ul class="checklist">
           <li><span class="check">✓</span><span>{{ i18n "feature_limited_bandwidth" }}</span></li>
@@ -100,9 +101,10 @@
       </article>
 
       <article class="card card--featured">
+      <span class="plan-status plan-status--soon">{{ i18n "status_coming_soon" }}</span>
         <h3 class="h3 center">{{ i18n "plan_standard" }}</h3>
         <p class="muted muted--on-purple center">{{ i18n "billing_yearly" }}</p>
-        <div class="price price--on-purple center">$4.99 per month</div>
+        <div class="price price--on-purple center">$4.99 / mo</div>
         <ul class="checklist">
           <li><span class="check">✓</span><span>{{ i18n "feature_unlimited_bandwidth" }}</span></li>
           <li><span class="check">✓</span><span>{{ i18n "feature_priority_support" }}</span></li>
@@ -112,9 +114,10 @@
       </article>
 
       <article class="card card--plain">
+      <span class="plan-status plan-status--soon">{{ i18n "status_coming_soon" }}</span>
         <h3 class="h3 center">{{ i18n "plan_standard" }}</h3>
         <p class="muted center">{{ i18n "billing_monthly" }}</p>
-        <div class="price center">$9.99 per month</div>
+        <div class="price center">$9.99 / mo</div>
         <ul class="checklist">
           <li><span class="check">✓</span><span>{{ i18n "feature_unlimited_bandwidth" }}</span></li>
           <li><span class="check">✓</span><span>{{ i18n "feature_priority_support" }}</span></li>

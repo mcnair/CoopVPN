@@ -496,6 +496,35 @@ p a:hover {
   font-weight: 800;
 }
 
+.plan-status {
+  display: table;
+  margin: 0 auto 1rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.plan-status--live {
+  background: #dff5e5;
+  color: #176b36;
+}
+
+.plan-status--soon {
+  background: #eeeaf5;
+  color: var(--purple);
+}
+
+.card--featured .plan-status--soon {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+
+
 /* ------------------------------------------------------------
    About grid
 ------------------------------------------------------------ */
