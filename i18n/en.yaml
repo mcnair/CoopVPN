@@ -19,7 +19,7 @@
 - id: hero_p1
   translation: "Many VPNs make privacy claims they don’t back up. CoopVPN is built by the developers behind RiseupVPN, CalyxVPN, and TorVPN. We run a strict no-logs service, publish 100% of our code as open source, and have undergone independent security audits by Cure53 and SRLabs. Organizationally, CoopVPN is worker-owned, with ownership and privacy policies designed to prioritize user protection over profit."
 - id: hero_p2
-  translation: "Please beta test CoopVPN on Android, and let us know what you think!"
+  translation: "Please help us beta test. Download the Bitmask app, select CoopVPN as the provider and let us know what you think!"
 - id: feature1_title
   translation: "Protect Your Privacy."
 - id: feature1_body
@@ -35,7 +35,7 @@
 - id: plans_title
   translation: "The Plans"
 - id: plans_intro
-  translation: "We will offer two plans: a free plan and a faster paid plan with customer support. As a worker coop, we have no investors or bosses taking profits. Any profits are first reinvested in the coop; remaining funds are split 50% to worker-owners and 50% to a solidarity fund supporting allied providers and anti-censorship efforts."
+  translation: "We will offer two plans: a free plan and a faster paid plan with customer support. As a worker coop, we have no investors or bosses taking profits. Any profits are first reinvested in the coop; remaining funds are split 50% to worker-owners and 50% to a solidarity fund supporting allied providers and anti-censorship efforts. The below plans are a draft, final decisions will be taken after input from our community. "
 - id: plan_community
   translation: "Community"
 - id: plan_standard
