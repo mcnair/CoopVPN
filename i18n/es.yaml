@@ -17,7 +17,7 @@
 - id: hero_p1
   translation: "Muchos VPN hacen promesas de privacidad que no pueden sostener. CoopVPN está construido por desarrolladores detrás de RiseupVPN, CalyxVPN y TorVPN. Operamos con una política estricta de no‑registros, publicamos el 100% de nuestro código como software libre y hemos pasado auditorías de seguridad independientes por Cure53 y SRLabs. A nivel organizativo, CoopVPN es una cooperativa de trabajadores: la propiedad y las políticas de privacidad están diseñadas para priorizar la protección de las personas usuarias por encima del lucro."
 - id: hero_p2
-  translation: "¡Por favor prueba la beta de CoopVPN en Android y cuéntanos qué te parece!"
+  translation: "¡Ayúdanos a probar la versión beta. Descarga la aplicación Bitmask, selecciona CoopVPN como proveedor y cuéntanos qué te parece."
 - id: feature1_title
   translation: "Protege tu privacidad."
 - id: feature1_body
