@@ -33,7 +33,7 @@
 - id: plans_title
   translation: "Los planes"
 - id: plans_intro
-  translation: "Ofrecemos dos planes: uno gratuito y otro de pago, más rápido y con soporte. Como cooperativa de trabajadores no tenemos inversores ni jefes que se queden con los beneficios. Las ganancias se reinvierten primero en la cooperativa; lo restante se divide 50% para las personas trabajadoras‑propietarias y 50% para un fondo de solidaridad que apoya a proveedores aliados y esfuerzos anti‑censura."
+  translation: "Ofrecemos dos planes: uno gratuito y otro de pago, más rápido y con soporte. Como cooperativa de trabajadores no tenemos inversores ni jefes que se queden con los beneficios. Las ganancias se reinvierten primero en la cooperativa; lo restante se divide 50% para las personas trabajadoras‑propietarias y 50% para un fondo de solidaridad que apoya a proveedores aliados y esfuerzos anti‑censura. Los planes que aparecen a continuación son un borrador. Las decisiones finales se tomarán después de recibir las opiniones de nuestra comunidad."
 - id: plan_community
   translation: "Comunidad"
 - id: plan_standard
@@ -44,6 +44,10 @@
   translation: "Mensual"
 - id: free
   translation: "Gratis"
+- id: status_live
+  translation: "Ya disponible"
+- id: status_coming_soon
+  translation: "Próximamente"
 - id: feature_limited_bandwidth
   translation: "Ancho de banda limitado"
 - id: feature_limited_support
